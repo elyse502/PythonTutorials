@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 class SchoolMember:
     '''Represents any school member.'''
     def __init__(self, name, age):
