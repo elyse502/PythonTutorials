@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 class A:
     def __str__(self):
         return "42"
