@@ -10,7 +10,7 @@ class Robot:
         self.build_year = build_year
 
     def __repr__(self):
-        return "Robot('" + sel.name + "', " + str(self.build_year) + ")"
+        return "Robot('" + self.name + "', " + str(self.build_year) + ")"
 
     def __str__(self):
         return "Name: " + self.name + ", Build Year: " + str(self.build_year)
