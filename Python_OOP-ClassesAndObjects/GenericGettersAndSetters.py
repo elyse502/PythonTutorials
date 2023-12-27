@@ -66,7 +66,7 @@ class Robot:
         self.__dict__[f"__{name}"] = value
 
 
-robot = Robot("RoboBot", 2022, "techCity")
+robot = Robot("RoboBot", 2022, "TechCity")
 print()
 print("> After:\n________")
 print(robot.name)
