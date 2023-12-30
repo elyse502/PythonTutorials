@@ -30,7 +30,7 @@ class Square:
         else:
             print("Please only enter numbers for height")
 
-    '''Doing thing for width'''
+    '''Doing the same thing for width'''
     # Defining a getter...
     @property  # This is going to allow us to refer to the fields inside class.
     def width(self):
@@ -64,9 +64,9 @@ def main():
     aSquare.height = height
     """What these guys above with "@" do this and the property is it allows us
      to refer to these values (aSquare.height = height) just as height. Othewi-
-    se I'd have to come in here (aSquare.height = height(...and put that here))
+    se I'd have to come in here (aSquare.height = height(...and put them here))
      But now because we have property set up above in that set up with setter
-    we cab just refer to them the way that they are..."""
+    we can just refer to them the way that they are..."""
     aSquare.width = width
     print("Height:", aSquare.height)
     print("Width:", aSquare.width)
